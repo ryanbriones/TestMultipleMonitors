@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A02EDFF2DFDA0E6A498677A4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A02EDFF2DFDA0E6A498677A3 /* Cocoa.framework */; };
+		A02EDFF2DFDA0E6A498677AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A02EDFF2DFDA0E6A498677AD /* InfoPlist.strings */; };
+		A02EDFF2DFDA0E6A498677B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A02EDFF2DFDA0E6A498677AF /* main.m */; };
+		A02EDFF2DFDA0E6A498677B4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A02EDFF2DFDA0E6A498677B3 /* Credits.rtf */; };
+		A02EDFF2DFDA0E6A498677B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A02EDFF2DFDA0E6A498677B6 /* AppDelegate.m */; };
+		A02EDFF2DFDA0E6A498677BA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A02EDFF2DFDA0E6A498677B9 /* MainMenu.xib */; };
+		A02EDFF2DFDA0E6A498677BC /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A02EDFF2DFDA0E6A498677BB /* WebKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A02EDFF2DFDA0E6A4986779A /* TestMultipleMonitors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestMultipleMonitors.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A02EDFF2DFDA0E6A498677A3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A02EDFF2DFDA0E6A498677A6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		A02EDFF2DFDA0E6A498677A7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A02EDFF2DFDA0E6A498677A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A02EDFF2DFDA0E6A498677AB /* TestMultipleMonitors-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "TestMultipleMonitors-Info.plist"; sourceTree = "<group>"; };
+		A02EDFF2DFDA0E6A498677AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A02EDFF2DFDA0E6A498677AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A02EDFF2DFDA0E6A498677B1 /* TestMultipleMonitors-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestMultipleMonitors-Prefix.pch"; sourceTree = "<group>"; };
+		A02EDFF2DFDA0E6A498677B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		A02EDFF2DFDA0E6A498677B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A02EDFF2DFDA0E6A498677B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A02EDFF2DFDA0E6A498677B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A02EDFF2DFDA0E6A498677BB /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A02EDFF2DFDA0E6A498677A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A02EDFF2DFDA0E6A498677A4 /* Cocoa.framework in Frameworks */,
+				A02EDFF2DFDA0E6A498677BC /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A02EDFF2DFDA0E6A49867796 = {
+			isa = PBXGroup;
+			children = (
+				A02EDFF2DFDA0E6A49867797 /* Products */,
+				A02EDFF2DFDA0E6A498677A2 /* Frameworks */,
+				A02EDFF2DFDA0E6A498677A9 /* TestMultipleMonitors */,
+			);
+			sourceTree = "<group>";
+		};
+		A02EDFF2DFDA0E6A49867797 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A02EDFF2DFDA0E6A4986779A /* TestMultipleMonitors.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A02EDFF2DFDA0E6A498677A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A02EDFF2DFDA0E6A498677BB /* WebKit.framework */,
+				A02EDFF2DFDA0E6A498677A3 /* Cocoa.framework */,
+				A02EDFF2DFDA0E6A498677A5 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A02EDFF2DFDA0E6A498677A5 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A02EDFF2DFDA0E6A498677A8 /* Foundation.framework */,
+				A02EDFF2DFDA0E6A498677A7 /* CoreData.framework */,
+				A02EDFF2DFDA0E6A498677A6 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		A02EDFF2DFDA0E6A498677A9 /* TestMultipleMonitors */ = {
+			isa = PBXGroup;
+			children = (
+				A02EDFF2DFDA0E6A498677B9 /* MainMenu.xib */,
+				A02EDFF2DFDA0E6A498677B6 /* AppDelegate.m */,
+				A02EDFF2DFDA0E6A498677B5 /* AppDelegate.h */,
+				A02EDFF2DFDA0E6A498677AA /* Supporting Files */,
+			);
+			path = TestMultipleMonitors;
+			sourceTree = "<group>";
+		};
+		A02EDFF2DFDA0E6A498677AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A02EDFF2DFDA0E6A498677B3 /* Credits.rtf */,
+				A02EDFF2DFDA0E6A498677B1 /* TestMultipleMonitors-Prefix.pch */,
+				A02EDFF2DFDA0E6A498677AF /* main.m */,
+				A02EDFF2DFDA0E6A498677AD /* InfoPlist.strings */,
+				A02EDFF2DFDA0E6A498677AB /* TestMultipleMonitors-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A02EDFF2DFDA0E6A4986779B /* TestMultipleMonitors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A02EDFF2DFDA0E6A4986779C /* Build configuration list for PBXNativeTarget "TestMultipleMonitors" */;
+			buildPhases = (
+				A02EDFF2DFDA0E6A4986779F /* Sources */,
+				A02EDFF2DFDA0E6A498677A0 /* Frameworks */,
+				A02EDFF2DFDA0E6A498677A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestMultipleMonitors;
+			productName = TestMultipleMonitors;
+			productReference = A02EDFF2DFDA0E6A4986779A /* TestMultipleMonitors.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A02EDFF2DFDA0E6A49867794 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = A02EDFF2DFDA0E6A49867795 /* Build configuration list for PBXProject "TestMultipleMonitors" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A02EDFF2DFDA0E6A49867796;
+			productRefGroup = A02EDFF2DFDA0E6A49867797 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A02EDFF2DFDA0E6A4986779B /* TestMultipleMonitors */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A02EDFF2DFDA0E6A498677A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A02EDFF2DFDA0E6A498677AE /* InfoPlist.strings in Resources */,
+				A02EDFF2DFDA0E6A498677B4 /* Credits.rtf in Resources */,
+				A02EDFF2DFDA0E6A498677BA /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A02EDFF2DFDA0E6A4986779F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A02EDFF2DFDA0E6A498677B0 /* main.m in Sources */,
+				A02EDFF2DFDA0E6A498677B7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A02EDFF2DFDA0E6A498677AD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A02EDFF2DFDA0E6A498677AC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A02EDFF2DFDA0E6A498677B3 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A02EDFF2DFDA0E6A498677B2 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		A02EDFF2DFDA0E6A498677B9 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A02EDFF2DFDA0E6A498677B8 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A02EDFF2DFDA0E6A49867798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A02EDFF2DFDA0E6A49867799 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A02EDFF2DFDA0E6A4986779D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestMultipleMonitors/TestMultipleMonitors-Prefix.pch";
+				INFOPLIST_FILE = "TestMultipleMonitors/TestMultipleMonitors-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A02EDFF2DFDA0E6A4986779E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestMultipleMonitors/TestMultipleMonitors-Prefix.pch";
+				INFOPLIST_FILE = "TestMultipleMonitors/TestMultipleMonitors-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A02EDFF2DFDA0E6A49867795 /* Build configuration list for PBXProject "TestMultipleMonitors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A02EDFF2DFDA0E6A49867798 /* Release */,
+				A02EDFF2DFDA0E6A49867799 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A02EDFF2DFDA0E6A4986779C /* Build configuration list for PBXNativeTarget "TestMultipleMonitors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A02EDFF2DFDA0E6A4986779D /* Release */,
+				A02EDFF2DFDA0E6A4986779E /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A02EDFF2DFDA0E6A49867794 /* Project object */;
+}
